@@ -1,0 +1,55 @@
+bt not auto connecte, but manually <connect  MAC_addr> command
+
+5.073857] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    5.073864] Bluetooth: BNEP filters: protocol multicast
+[    5.073870] Bluetooth: BNEP socket layer initialized
+[    5.105704] Bluetooth: hci0: Intel BT fw patch 0x32 completed & activated
+[    5.156959] Bluetooth: MGMT ver 1.22
+[    5.164646] NET: Registered PF_ALG protocol family
+[    5.288697] kauditd_printk_skb: 7 callbacks suppressed
+[    5.288703] audit: type=1400 audit(1692411017.195:18): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=671 comm="cupsd" capability=12  capname="net_admin"
+[    5.328848] NET: Registered PF_QIPCRTR protocol family
+[    5.330234] r8169 0000:01:00.0: firmware: direct-loading firmware rtl_nic/rtl8168h-2.fw
+[    5.344818] audit: type=1400 audit(1692411017.251:19): apparmor="DENIED" operation="capable" profile="/usr/sbin/cupsd" pid=700 comm="cupsd" capability=12  capname="net_admin"
+[    5.355865] Generic FE-GE Realtek PHY r8169-0-100:00: attached PHY driver (mii_bus:phy_addr=r8169-0-100:00, irq=MAC)
+[    5.552820] r8169 0000:01:00.0 enp1s0: Link is Down
+[    5.569009] iwlwifi 0000:02:00.0: Applying debug destination EXTERNAL_DRAM
+[    5.646421] iwlwifi 0000:02:00.0: Applying debug destination EXTERNAL_DRAM
+[    5.647583] iwlwifi 0000:02:00.0: FW already configured (0) - re-configuring
+[    5.702089] iwlwifi 0000:02:00.0: Applying debug destination EXTERNAL_DRAM
+[    5.779381] iwlwifi 0000:02:00.0: Applying debug destination EXTERNAL_DRAM
+[    5.780564] iwlwifi 0000:02:00.0: FW already configured (0) - re-configuring
+[    7.921955] Bluetooth: RFCOMM TTY layer initialized
+[    7.921982] Bluetooth: RFCOMM socket layer initialized
+[    7.921996] Bluetooth: RFCOMM ver 1.11
+[    9.472007] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[  936.531603] wlp2s0: authenticate with ce:73:14:6b:ff:dc
+[  936.531629] wlp2s0: 80 MHz not supported, disabling VHT
+[  936.536612] wlp2s0: send auth to ce:73:14:6b:ff:dc (try 1/3)
+[  936.540109] wlp2s0: authenticated
+[  936.543681] wlp2s0: associate with ce:73:14:6b:ff:dc (try 1/3)
+[  936.550114] wlp2s0: RX AssocResp from ce:73:14:6b:ff:dc (capab=0x401 status=0 aid=1)
+[  936.552726] wlp2s0: associated
+[  936.558710] IPv6: ADDRCONF(NETDEV_CHANGE): wlp2s0: link becomes ready
+[ 1354.619991] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[ 1354.620005] Bluetooth: HIDP socket layer initialized
+[ 1368.165256] hid-generic 0005:0000:0000.0005: unknown main item tag 0x0
+[ 1368.165338] input: BT3.0 Mouse Keyboard as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0005/input/input18
+[ 1368.165744] input: BT3.0 Mouse as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0005/input/input19
+[ 1368.165989] input: BT3.0 Mouse as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0005/input/input20
+[ 1368.166220] hid-generic 0005:0000:0000.0005: input,hidraw4: BLUETOOTH HID v0.00 Keyboard [BT3.0 Mouse] on 84:c5:a6:4a:e9:b1
+[ 1464.181073] hid-generic 0005:0000:0000.0006: unknown main item tag 0x0
+[ 1464.181159] input: BT3.0 Mouse Keyboard as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0006/input/input21
+[ 1464.181625] input: BT3.0 Mouse as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0006/input/input22
+[ 1464.181738] input: BT3.0 Mouse as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0006/input/input23
+[ 1464.181825] hid-generic 0005:0000:0000.0006: input,hidraw4: BLUETOOTH HID v0.00 Keyboard [BT3.0 Mouse] on 84:c5:a6:4a:e9:b1
+[ 3887.540292] perf: interrupt took too long (2514 > 2500), lowering kernel.perf_event_max_sample_rate to 79500
+[ 6706.890662] perf: interrupt took too long (3167 > 3142), lowering kernel.perf_event_max_sample_rate to 63000
+[ 8732.949773] perf: interrupt took too long (3972 > 3958), lowering kernel.perf_event_max_sample_rate to 50250
+[13498.882985] perf: interrupt took too long (4968 > 4965), lowering kernel.perf_event_max_sample_rate to 40250
+[22562.059618] hid-generic 0005:0000:0000.0007: unknown main item tag 0x0
+[22562.059712] input: BT3.0 Mouse Keyboard as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0007/input/input24
+[22562.059843] input: BT3.0 Mouse as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0007/input/input25
+[22562.059985] input: BT3.0 Mouse as /devices/pci0000:00/0000:00:15.0/usb1/1-6/1-6:1.0/bluetooth/hci0/hci0:256/0005:0000:0000.0007/input/input26
+[22562.060218] hid-generic 0005:0000:0000.0007: input,hidraw4: BLUETOOTH HID v0.00 Keyboard [BT3.0 Mouse] on 84:c5:a6:4a:e9:b1
+root@debian:/usr/share/venv/bin# 
